@@ -36,7 +36,7 @@
                         if ($_SESSION['user']['tipo'] != TIPO_ADMIN) { ?>
                             <li class="nav-item ">
                                 <a class="nav-link text-secondary d-flex align-items-center " href="index.php?orden=CargaUsuario" title="Modificar usuario">
-                                    <span class="material-icons mx-2">account_circle</span>Cuenta</a>
+                                    <span class="material-icons mx-2">account_circle</span><?= $_SESSION["user"]["nombre"]  ?></a>
                             </li>
 
                         <?php } else { ?>

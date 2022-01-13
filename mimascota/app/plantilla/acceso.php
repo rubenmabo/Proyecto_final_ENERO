@@ -10,7 +10,7 @@ echo isset($msg) && $msg != "" ? '<div class="alert alert-danger text-center" ro
 		<div class="form-group my-2">
 			<label for="" class="mx-2 hidden-sm-down">Email:</label>
 			<!--<input type="email" name="email" class="form-control" placeholder="Email" required autofocus value="<?= $email ?>">-->
-			<input type="email" name="email" class="form-control" placeholder="Email" required autofocus value="admin@gmail.com">
+			<input type="email" name="email" class="form-control" placeholder="email@email.com" required autofocus>
 		</div>
 		<div class="form-group my-2">
 			<label for="" class="mx-2 hidden-sm-down">Password</label>
