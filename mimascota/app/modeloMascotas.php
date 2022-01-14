@@ -42,7 +42,7 @@ function modeloMascotasListUser($id_usuario)
     return $vista;
 }
 
-// Tabla de todos las mascotas de los ussuaiors
+// Tabla de todos las mascotas de los usuarios
 function modeloMascotasUsersList()
 {
     // Genero lo datos para la vista 

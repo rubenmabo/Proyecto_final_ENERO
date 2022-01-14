@@ -10,9 +10,7 @@ include_once 'app/modeloMascotas.php';
 include_once 'app/controlerHistorial.php';
 include_once 'app/modeloHistorial.php';
 
-// Enrutamiento
-// Relación entre peticiones y función que la va a tratar
-// Versión sin POO no manejo de Clases ni objetos
+// Relación  peticiones - función que la va a tratar
 $rutasUser = [
     "Login" => "ctlUserLogin",
     "Registro" => "ctlUserRegistro",

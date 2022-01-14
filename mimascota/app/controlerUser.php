@@ -30,7 +30,7 @@ function  ctlUserLogin()
     include_once "plantilla/acceso.php";
 }
 
-// Cierra la sesión y vuelva los datos
+// Cierra la sesión
 function ctlUserCerrar()
 {
     session_destroy();
